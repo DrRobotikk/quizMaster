@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgb(127, 27, 127);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLogo{
+    size: 10%;
+}
+
+.navbarLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbarLinks li{
+    color: rgb(2, 255, 36);
+    text-decoration: none;
+    list-style: none;
+}
