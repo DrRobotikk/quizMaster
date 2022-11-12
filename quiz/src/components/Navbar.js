@@ -1,17 +1,21 @@
+import { Link } from 'react-router-dom';
 import  './navbar.css'
-import logo from "../logo.svg";
 function Navbar(){
  
   
     return (
         <div className="navbar">
         <div className="navbarLogo">
-            <img src={logo} alt="logo" />
+            <Link to="/"><h1>Quizz Master</h1></Link> 
         </div>
         <div >
             <ul className="navbarLinks">
-                <li>Home</li>
-                <li>About</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/About">About</Link>
+                </li>
                 <li>Contact</li>
             </ul>
         </div>
