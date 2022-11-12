@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const About = () => {
+const Quizes = () => {
   return (
-    <div className="About">
+    <div>
       <Navbar />
-      <h1>About</h1>
+      <h2>Quizes</h2>
       <Footer />
     </div>
   );
 };
 
-export default About;
+export default Quizes;

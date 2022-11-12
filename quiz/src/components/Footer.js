@@ -1,11 +1,11 @@
 import "./footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer>
-      <p>Quiz App</p>
+    <footer className="footer">
+      <p>Created by me </p>
     </footer>
   );
-}
+};
 
 export default Footer;

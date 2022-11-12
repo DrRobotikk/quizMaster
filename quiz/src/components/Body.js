@@ -1,7 +1,8 @@
-const Body = () => {
+const Body = (props) => {
   return (
-    <div>
-      <h1>Body</h1>
+    <div className="Body">
+      <h1>{props.name}</h1>
+      <p>{props.article}</p>
     </div>
   );
 };
