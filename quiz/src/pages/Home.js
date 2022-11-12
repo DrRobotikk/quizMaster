@@ -10,6 +10,7 @@ function Home() {
         name="Homepage"
         article="Masse masse tekst som, ingen vet hvordan en skal bruke men haddde vert kult om dette fungerte"
       />
+      <Body />
       <Footer />
     </div>
   );

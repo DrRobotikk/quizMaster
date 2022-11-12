@@ -1,3 +1,5 @@
+import "./Body.css";
+
 const Body = (props) => {
   return (
     <div className="Body">
