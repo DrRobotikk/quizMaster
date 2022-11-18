@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: rgb(171, 0, 255);
+  color: rgb(51, 0, 123);
+}
+
+div > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav > a {
+  text-decoration: none;
+  color: rgb(51, 0, 123);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
